@@ -1,2 +1,2 @@
 # Microsoft-Sentinel-SOC-Lab
-Hands-on SOC lab using Microsoft Sentinel and Defender to perform KQL threat hunting, multi-source security analysis, MITRE ATT&amp;CK mapping, detection engineering and incident investigation.
+A personal SOC lab documenting my journey with Microsoft Sentinel and Defender, including KQL threat hunting, security investigations, MITRE ATT&CK mapping, and custom detection engineering.
