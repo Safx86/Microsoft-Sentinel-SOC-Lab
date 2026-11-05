@@ -1,7 +1,7 @@
 # Microsoft Sentinel SOC Lab
 A personal SOC lab documenting my journey with Microsoft Sentinel and Defender, including KQL threat hunting, security investigations, MITRE ATT&CK mapping, and custom detection engineering.
 
-About This Project
+### About This Project
 
 Cybersecurity is something I have wanted to get into for a long time, but for years I was never really sure what route to take or where to start.
 
