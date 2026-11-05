@@ -24,3 +24,22 @@ Ultimately, this project represents more than just completing a lab. It is part 
 * Build custom detection rules based on suspicious behaviour
 * Develop practical incident investigation skills
 * Document troubleshooting and lessons learned throughout the project
+
+### Technologies & Concepts
+* Microsoft Sentinel
+* Microsoft Defender
+* Microsoft Azure
+* Azure Log Analytics
+* Microsoft Entra ID
+* Azure Automation
+* Microsoft Graph
+* Kusto Query Language (KQL)
+* MITRE ATT&CK
+* Crowdstrike Telemetry
+* Palo Alto Firewall Telemetry
+* Okta Identity Telemetry
+* AWS CloudTrail Telemetry
+* Azure RBAC
+* Managed Identities
+
+
