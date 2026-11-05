@@ -42,4 +42,8 @@ Ultimately, this project represents more than just completing a lab. It is part 
 * Azure RBAC
 * Managed Identities
 
+### Lab Architecture
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/4136e447-a834-4c7d-b81a-5f6940b141f7" />
+
+
 
