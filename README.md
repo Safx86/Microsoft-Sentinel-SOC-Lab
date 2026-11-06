@@ -55,3 +55,55 @@ Ultimately, this project represents more than just completing a lab. It is part 
 
 04	Automation Rules	⏳ Planned
 
+### Exercise 01 - Multi-Source Threat Hunting
+During Exercise 1, I explored security telemetry from multiple sources using KQL within Microsoft Defender Advanced Hunting.
+
+Data sources investigated included:
+
+* CrowdStrike endpoint telemetry
+* Palo Alto firewall telemetry
+* Okta identity telemetry
+* AWS CloudTrail activity
+  
+I used this telemetry to investigate suspicious activity across endpoint, network, identity and cloud environments and developed a custom detection for multi-tactic activity affecting a single endpoint.
+
+exercises/exercise-01/README.md
+
+### Troubleshooting Highlights
+
+Building the lab involved several Azure and Sentinel deployment challenges. Rather than rebuilding the environment after each failure, I investigated the underlying errors and worked through them individually.
+
+* Resolved Azure Free Trial regional restrictions by rebuilding the environment in North Europe.
+* Diagnosed missing Microsoft.Web and Microsoft.Automation resource provider registrations.
+* Configured a User-Assigned Managed Identity and Microsoft Graph permissions for detection deployment.
+* Troubleshot Azure RBAC versus Microsoft Entra role requirements.
+* Diagnosed an Azure Automation regional quota that prevented a second Automation account from being created.
+* Identified KQL time-window issues when prerecorded telemetry wasn't appearing in Advanced Hunting.
+
+docs/troubleshooting.md
+
+### Skills Demonstrated
+
+* SIEM deployment and configuration
+* KQL threat hunting
+* Multi-source security analysis
+* Endpoint security investigation
+* Identity security investigation
+* Network security analysis
+* Cloud security analysis
+* MITRE ATT&CK mapping
+* Detection engineering
+* Azure RBAC
+* Managed identities
+* Microsoft Graph permissions
+* Microsoft Sentinel troubleshooting
+
+### Lessons Learned
+
+One of the biggest lessons from this project has been that deploying the technology is only part of building a SOC environment. Troubleshooting permissions, Azure resource providers, regional restrictions, managed identities, telemetry ingestion and KQL query scope helped me develop a much better understanding of how the different components of Microsoft Sentinel and Defender interact.
+
+I also learned the importance of validating each stage individually rather than assuming that a successful deployment means every component is functioning correctly.
+
+### Acknowledgements
+
+This project uses the Microsoft Sentinel Training Lab to provide simulated security telemetry and investigation scenarios. This repository documents my own deployment, troubleshooting, KQL analysis, investigations, detections and learning outcomes.
