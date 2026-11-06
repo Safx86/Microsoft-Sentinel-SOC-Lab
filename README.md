@@ -45,5 +45,13 @@ Ultimately, this project represents more than just completing a lab. It is part 
 ### Lab Architecture
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/4136e447-a834-4c7d-b81a-5f6940b141f7" />
 
+### Project Progress
 
+01	Multi-Source Threat Hunting & Detection Engineering	✅ Completed
+
+02	Threat Intelligence	🔄 In Progress
+
+03	MITRE ATT&CK Coverage	⏳ Planned
+
+04	Automation Rules	⏳ Planned
 
