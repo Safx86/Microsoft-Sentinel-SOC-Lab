@@ -42,10 +42,11 @@ This allowed Microsoft Sentinel to use the security telemetry available within t
 
 As part of the configuration, I:
 
-Enabled Microsoft Sentinel for my Log Analytics Workspace.
-Connected the lab workspace to Microsoft Sentinel.
-Integrated Microsoft Sentinel with Microsoft Defender XDR.
-Configured the relevant workspace as the primary workspace for the lab.
-Working through this configuration helped me understand the relationship between Log Analytics, Microsoft Sentinel and Microsoft Defender XDR. Log Analytics provides the underlying workspace and data, while Sentinel and Defender provide the security tools I use to analyse that data, investigate suspicious activity and build detections.
+* Enabled Microsoft Sentinel for my Log Analytics Workspace.
+* Connected the lab workspace to Microsoft Sentinel.
+* Integrated Microsoft Sentinel with Microsoft Defender XDR.
+* Configured the relevant workspace as the primary workspace for the lab.
+
+Working through this configuration helped me understand the relationship between Log Analytics, Microsoft Sentinel and Microsoft Defender XDR. Log Analytics provides the underlying workspace and data, while Sentinel and Defender provide the security tools I use to analyse that data, investigate suspicious activity and build detection's.
 
 Once the configuration was completed, I was able to move into Microsoft Defender Advanced Hunting and begin validating the security telemetry that had been deployed as part of the training environment.
