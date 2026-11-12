@@ -28,3 +28,6 @@ Log Analytics Workspace: Provides the workspace where log and security telemetry
 Microsoft Sentinel: Provides the SIEM capabilities I use to analyse the available security data, perform threat hunting and investigate potential threats.
 
 Understanding the purpose of each component helped me see how the different parts of the Azure environment connect together to support Microsoft Sentinel.
+
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/ef73f5ac-5df2-40df-9a2d-ca22145e495f" />
+
