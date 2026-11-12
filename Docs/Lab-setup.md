@@ -31,3 +31,6 @@ Understanding the purpose of each component helped me see how the different part
 
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/ef73f5ac-5df2-40df-9a2d-ca22145e495f" />
 
+One of my first learning points from building the lab came from something as simple as naming a resource. I originally named my Log Analytics Workspace it-rg-sentinel-soc-lab because I hadn't yet understood the importance of using clear Azure resource naming conventions. As I worked further into the project, I learned that rg is typically used to identify a Resource Group, while a prefix such as law would make more sense for a Log Analytics Workspace.
+
+I've left the original name in place because this repository is intended to document the learning process honestly, including the things I would do differently next time.
