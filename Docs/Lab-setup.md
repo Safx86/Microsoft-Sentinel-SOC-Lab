@@ -34,3 +34,18 @@ Understanding the purpose of each component helped me see how the different part
 One of my first learning points from building the lab came from something as simple as naming a resource. I originally named my Log Analytics Workspace it-rg-sentinel-soc-lab because I hadn't yet understood the importance of using clear Azure resource naming conventions. As I worked further into the project, I learned that rg is typically used to identify a Resource Group, while a prefix such as law would make more sense for a Log Analytics Workspace.
 
 I've left the original name in place because this repository is intended to document the learning process honestly, including the things I would do differently next time.
+
+### Microsoft Sentinel Configuration
+Once the Log Analytics Workspace was in place, the next step was to configure Microsoft Sentinel and connect it to the workspace I had created for the lab.
+
+This allowed Microsoft Sentinel to use the security telemetry available within the workspace for monitoring, threat detection, investigation and threat hunting.
+
+As part of the configuration, I:
+
+Enabled Microsoft Sentinel for my Log Analytics Workspace.
+Connected the lab workspace to Microsoft Sentinel.
+Integrated Microsoft Sentinel with Microsoft Defender XDR.
+Configured the relevant workspace as the primary workspace for the lab.
+Working through this configuration helped me understand the relationship between Log Analytics, Microsoft Sentinel and Microsoft Defender XDR. Log Analytics provides the underlying workspace and data, while Sentinel and Defender provide the security tools I use to analyse that data, investigate suspicious activity and build detections.
+
+Once the configuration was completed, I was able to move into Microsoft Defender Advanced Hunting and begin validating the security telemetry that had been deployed as part of the training environment.
