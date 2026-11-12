@@ -52,3 +52,4 @@ Working through this configuration helped me understand the relationship between
 Once the configuration was completed, I was able to move into Microsoft Defender Advanced Hunting and begin validating the security telemetry that had been deployed as part of the training environment.
 
 <img width="1342" height="470" alt="image" src="https://github.com/user-attachments/assets/5707285b-5b0b-48fe-8cba-52607b792a17" />
+Microsoft Sentinel SIEM workspace successfully connected to Microsoft Defender XDR and configured as the primary workspace.
