@@ -50,3 +50,5 @@ As part of the configuration, I:
 Working through this configuration helped me understand the relationship between Log Analytics, Microsoft Sentinel and Microsoft Defender XDR. Log Analytics provides the underlying workspace and data, while Sentinel and Defender provide the security tools I use to analyse that data, investigate suspicious activity and build detection's.
 
 Once the configuration was completed, I was able to move into Microsoft Defender Advanced Hunting and begin validating the security telemetry that had been deployed as part of the training environment.
+
+<img width="1342" height="470" alt="image" src="https://github.com/user-attachments/assets/5707285b-5b0b-48fe-8cba-52607b792a17" />
